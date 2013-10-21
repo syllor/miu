@@ -1,0 +1,47 @@
+body { background:#c3c3c3}
+.miu{width:95%; margin:0 auto;overflow:hidden;background:#fff}
+#editor{width:50%;float:left;background:#fff;border-right:1px solid #f2f2f2;padding:10px;box-sizing:border-box}
+#preview{width:50%;float:right;background:#fff;padding:25px 30px 10px 50px;overflow-x:hidden;overflow-y:scroll;box-sizing:border-box}
+.miu .CodeMirror pre{
+  padding :0 40px;
+  font-size:16px;
+  line-height:160%;
+}
+.miu .CodeMirror .cm-header{
+  font-size:24px;
+  font-weight:bold;
+  color:#000
+}
+.miu .CodeMirror-wrap pre {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: normal;
+}
+.miu .CodeMirror .cm-variable-2,
+.miu .CodeMirror .cm-variable-3,
+.miu .CodeMirror .cm-keyword { color: #3c4043; }
+.miu .CodeMirror .cm-string,
+.miu .CodeMirror .cm-strong,
+.miu .CodeMirror .cm-link,
+.miu .CodeMirror .cm-comment,
+.miu .CodeMirror .cm-quote,
+.miu .CodeMirror .cm-number,
+.miu .CodeMirror .cm-atom,
+.miu .CodeMirror .cm-tag { color: #000; font-weight: bold; }
+.miu #preview{
+  font-family:monospace;
+  font-size:16px;
+  line-height:160%
+}
+.miu #preview hr{
+  background:1px solid #edece4;
+  border:none;
+  height:0px;
+  margin:15px 0px;
+  display:block;
+}
+.miu #preview img{
+  max-width:100%
+}
+
+
